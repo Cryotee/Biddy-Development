@@ -1,4 +1,5 @@
 Installation Guide for Biddy-Hooker Script
+If you encounter issues, reach out to me https://discord.gg/SxmhXXC9PJ
 
 Step 1: Install the Script
 
@@ -103,14 +104,5 @@ STD Persistence Issues:
 Ensure player_stds table exists and oxmysql is configured.
 Verify SQL queries in logs.
 
-
-
-Notes
-
-Debug Mode: Config.Debug is set to true, enabling /checkstd by default.
-Adding Items: You can add medicines to shops or loot tables in QBCore to make them obtainable in-game.
-Custom Locations: Add new hooker spots in config.lua under Config.Hooker.locations with coords and heading.
-
-If you encounter issues, reach out to me https://discord.gg/SxmhXXC9PJ
 
 
