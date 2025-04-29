@@ -30,12 +30,11 @@ Ensure the player_stds table exists with columns citizenid (VARCHAR) and std (VA
 
 Step 3: Add Medicines to QBCore Items
 
-Copy Item Definitions:
 Open install/items.lua in this folder.
-Copy its contents to your QBCore shared items file, typically located at [qb]/qb-core/shared/items.lua.
+Copy its contents to your QBCore shared items file
+located at [qb]/qb-core/shared/items.lua.
 
 
-Append Items:
 Add the following to the QBShared.Items
 ["doxycycline"] = {["name"] = "doxycycline", ["label"] = "Doxycycline", ["weight"] = 100, ["type"] = "item", ["image"] = "doxycycline.png", ["unique"] = false, ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "Medicine to cure Chlamydia."},
 ["ceftriaxone"] = {["name"] = "ceftriaxone", ["label"] = "Ceftriaxone", ["weight"] = 100, ["type"] = "item", ["image"] = "ceftriaxone.png", ["unique"] = false, ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "Medicine to cure Gonorrhea."},
@@ -47,7 +46,7 @@ Add the following to the QBShared.Items
 
 Add Item Images (Optional):
 Place image files (doxycycline.png, ceftriaxone.png, penicillin.png, antiviral.png) in [qb]/qb-inventory/html/images/.
-If you don’t have images, the items will still work, but they’ll show a default icon. 
+If you don’t have images, the items will still work, but they’ll show a no icon. 
 (At  this moment i do not have Image files in,, This will be in on the next update)
 
 Restart Server
